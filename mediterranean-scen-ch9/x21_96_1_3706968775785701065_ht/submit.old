@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#PBS -l walltime=5:00:00,nodes=1:ppn=4
+
+cd Science/southampon/runs/mediterranean/x21_96_1_3706968775785701065
+sh run
+

@@ -1,0 +1,22 @@
+ Running PBS prologue script on green0584
+
+ ===============================================================================
+ Job started on Thu May 27 10:50:05 BST 2021
+
+ JOB ID: 12095212.blue101
+ JOB NAME: submit
+ Num Hosts: 1
+ Num Tasks: 4
+ Nodes used: 
+ green0584
+ ===============================================================================
+ Job Output Follows:
+ ===============================================================================
+
+
+ ===============================================================================
+ Job finished at Thu May 27 10:57:06 BST 2021
+
+
+Requested resource limits are neednodes=1:ppn=4,nodes=1:ppn=4,pmem=4000mb,walltime=05:00:00
+Used resource limits are cput=00:06:52,mem=719852kb,vmem=1322316kb,walltime=00:07:01

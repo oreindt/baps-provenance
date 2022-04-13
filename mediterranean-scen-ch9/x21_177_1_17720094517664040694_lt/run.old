@@ -1,0 +1,5 @@
+#!/bin/bash
+JULIA_LOAD_PATH=$JULIA_LOAD_PATH:../rgct_data julia ../rgct_data/run.jl ../params.jl  -m ../map_med1.json -s ../departures '--warmup 100 --dep 0.21577383349001097 0.4137922827481027 0.7247523436511044' -s ../mediterranean '--wait 10 --warmup 100 --int 0.01 0.077 0.153 0.428 0.389 --risks 0.01 0.023 0.020 0.029 0.048'  -t 500 --risk-scale 7.424548710547798 --path-penalty-risk 0.7395109041263843 --p-info-contacts 0.907245146790415 --p-drop-contact 0.6123113318272435 --p-transfer-info 0.6163757089095306 --rand-seed-sim 16371 --rand-seed-world 83660 </dev/null >out 2>err
+
+julia ../format_results.jl 
+
