@@ -1,0 +1,10 @@
+v 0.3
+-----
+
+- lists of values set as a single Hash object will be represented by their 
+  keys in directory names
+
+v 0.2
+-----
+
+- added 'set' command

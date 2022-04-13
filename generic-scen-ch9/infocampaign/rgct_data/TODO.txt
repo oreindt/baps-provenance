@@ -1,0 +1,28 @@
+info
+
+* different trust levels dependent on source
+* broadcast info on risk
+
+decisions
+
+* add risk to travel cost calc
+	* ???
+	* -> empirical data
+		* ???
+* add risk to local decisions
+
+
+
+* rename friction in info/location (keeps confusing me)
+
+* motivated false info (?)
+
+* forget contacts
+	- by success (remaining capital)
+
+* communicate routes
+
+* info exchange by interestingness/relevance?
+	- more capital => higher authority?
+
+
